@@ -242,9 +242,9 @@
                 <!-- Grid section   -->
                 <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-8">
                     <!-- grid-1  -->
-                     <div class="flex items-center gap-4 border border-2 rounded-xl p-3 col-span-1 md:col-span-2 lg:col-span-5 ">
-                        <div class=""><img src="./Images/img1.png" alt=""></div>
-                        <div class="space-y-2 ">
+                     <div class="flex items-center justify-evenly gap-4 border border-2 rounded-xl p-3 col-span-1 md:col-span-2 lg:col-span-5 ">
+                        <div class=" "><img src="./Images/img1.png" alt=""></div>
+                        <div class="space-y-2  ">
                             <H4 class="text-2xl font-extrabold">Commercial</H4>
                             <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                             <div class="flex items-center gap-3"><h3 class="text-xl font-extrabold">View Details</h3>
@@ -256,17 +256,17 @@
                         </div>
                      </div>
                      <!-- grid-2  -->
-                      <div class="border border-2 rounded-xl p-3 flex justify-center lg:col-span-3">
-                        <img src="./Images/img2.png" alt="">
+                      <div class="border border-2 rounded-xl p-3 flex justify-center lg:col-span-3 bg-cover">
+                        <img class="" src="./Images/img2.png" alt="">
                       </div>
                      <!-- grid-3  -->
                       <div class="border border-2 rounded-xl p-3 flex justify-center  lg:col-span-2">
-                        <img src="./Images/img3.png" alt="">
+                        <img  src="./Images/img3.png" alt="">
                       </div>
                             <!-- grid-4  -->
-                     <div class="flex items-center gap-4 border border-2 rounded-xl p-3 md:col-span-2 lg:col-span-1 lg:col-span-4">
-                        <div class=""><img src="./Images/img4.png" alt=""></div>
-                        <div class="space-y-2 ">
+                     <div class="flex items-center justify-evenly gap-4 border border-2 rounded-xl p-3 md:col-span-2 lg:col-span-1 lg:col-span-4">
+                        <div class=" "><img src="./Images/img4.png" alt=""></div>
+                        <div class="space-y-2  ">
                             <H4 class="text-2xl font-extrabold">Commercial</H4>
                             <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                             <div class="flex items-center gap-3"><h3 class="text-xl font-extrabold">View Details</h3>
@@ -290,9 +290,63 @@
                 </div>
 
             </section>
-    </Main>
-    <Footer>
+             <!-- Discuss Next Project  section  -->
+              <section  style="background-image: url('./Images/bg.jpg');" class="bg-cover" >
+                <!-- section container  -->
+                <div class="md:w-11/12 md:mx-auto py-24">
+                                          <!-- section title  -->
+                <div class="text-center space-y-4  mb-8">
+                    <div class="flex justify-center ">
+                        <button class="  rounded-full  px-4 py-1 text-[#494949] bg-[#ABEF5F33]"><i class="fa-solid fa-arrow-right mr-1"></i> Explore our Latest works</button>
+                    </div>
+                    
+                        <H1 class="text-2xl md:text-4xl font-bold">Our Latest Portfolio</H1>
+    
+                        <p class="text-gray-500">The barn house captivates with its blend of rustic charm and 
+                            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                 </div>
+                 <!-- Form section   -->
+                    <div class="grid gap-4 grid-cols-1 md:grid-cols-2 md:px-14 lg:w-[970px] lg:mx-auto">
+                        <input type="text" placeholder="First Name*" class="input w-full   rounded-full" />
+                        <input type="text" placeholder="Last Name*" class="input w-full   rounded-full" />
+                        <input type="number" placeholder="Phone Number*" class="input w-full   rounded-full" />
+                        <input type="email" placeholder="Email" class="input w-full   rounded-full" />
+                        <textarea class="textarea col-span-1 md:col-span-2 h-60 resize-none" placeholder="Bio"></textarea>
+                         
+                        <button class="btn border-none md:col-span-2 bg-[#ABEF5F] text-xl text-black rounded-full  font-bold flex">Send Mail
+                            <div class=" bg-black  text-white rounded-full  ">
+                                <i class="fa-solid fa-xs fa-arrow-right -rotate-45  p-2"></i>
+                            </div>
+                        </button>
+                    </div>
 
-    </Footer>
+                </div>
+              </section>
+    </Main>
+    <footer class="footer footer-center bg-[#1C1C1C] text-primary-content p-10">
+        <!-- Footer container  -->
+         <div class="md:w-11/12 md:mx-auto px-4 space-y-4">
+            <!-- Footer heading  -->
+            <div class="navbar-start flex justify-center gap-1 ">
+                <div class=" bg-[#ABEF5F]  text-black font-thin rounded-full text-4xl flex items-center ">
+                    <i class="fa-solid fa-xs  fa-arrow-right -rotate-45  p-2"></i>
+                </div>
+              <a class="text-3xl md:text-5xl font-bold">Rinterio</a>
+            </div>
+            <p class="text-base text-gray-400">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <ul class="flex flex-col gap-4 md:flex-row md:gap-5 lg:gap-10 text-[#E9E9E9] ">
+                <li>Home</li>
+                <li>Service</li>
+                <li>Portfolio</li>
+                <li>Blogs</li>
+                <li>Contact Us</li>
+            </ul>
+            <button class="btn border-none  bg-[#ABEF5F] text-xl text-black rounded-full  font-bold flex">Book Consult
+                <div class=" bg-black  text-white rounded-full  ">
+                    <i class="fa-solid fa-xs fa-arrow-right -rotate-45  p-2"></i>
+                </div>
+            </button>
+         </div>
+      </footer>
 </body>
 </html>
